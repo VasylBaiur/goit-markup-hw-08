@@ -1,0 +1,18 @@
+.logo-header {
+  @include font(26px, 700, 31px);
+  margin: 24px 93px 25px auto;
+  font-family: 'Raleway';
+  color: var(--accent-color);
+  span {
+    @include font(26px, 700, 31px);
+    font-family: 'Raleway';
+    color: var(--maine);
+  }
+}
+@media screen and (max-width: 767px) {
+  .logo-header {
+    margin-right: 87px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+}
